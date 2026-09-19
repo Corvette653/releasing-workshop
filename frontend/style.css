@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  max-width: 480px;
+  margin: 40px auto;
+}
+
+#todo-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+#todo-title {
+  flex: 1;
+  padding: 8px;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#todo-list li span {
+  flex: 1;
+}
+
+#todo-list li span.done {
+  text-decoration: line-through;
+  color: #999;
+}
